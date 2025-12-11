@@ -1,11 +1,12 @@
 import { SystemThreatLevel } from './types';
 
 export const COLORS = {
-  NORMAL: '#4ade80',      // Green-400
-  SYBIL: '#ef4444',       // Red-500
-  TRUE_ALERT: '#3b82f6',  // Blue-500 (Real accident warning)
-  FALSE_ALERT: '#d946ef', // Fuchsia-500 (Fake news)
-  ROAD: '#333333',
+  NORMAL: '#00f3ff',      // Neon Cyan
+  SYBIL: '#ff003c',       // Cyber Red
+  TRUE_ALERT: '#3b82f6',  // Bright Blue
+  FALSE_ALERT: '#d946ef', // Neon Purple
+  ROAD: '#111111',        // Deep Black/Grey
+  BUILDING: '#080808',    // Darkest Grey for buildings
 };
 
 export const THREAT_CONFIG = {
@@ -31,6 +32,6 @@ export const THREAT_CONFIG = {
   },
 };
 
-export const GRID_SIZE = 60;
-export const ROAD_WIDTH = 2;
-export const BLOCK_SIZE = 10;
+export const GRID_SIZE = 80;
+export const ROAD_WIDTH = 2.5;
+export const BLOCK_SIZE = 12;
