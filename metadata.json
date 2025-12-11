@@ -1,0 +1,5 @@
+{
+  "name": "VANET Sybil Visualizer",
+  "description": "A 3D visualization of Sybil attacks in a Vehicular Ad-hoc Network (VANET), demonstrating the impact on consensus latency and network integrity.",
+  "requestFramePermissions": []
+}
